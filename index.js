@@ -11,7 +11,7 @@ const audios = {
 }
 
 for (var i = 0; i < numOfButtons; i++) {
-  document.querySelectorAll(".drum")[i].addEventListener("click", function(one, two, three, four, five){
+  document.querySelectorAll(".drum")[i].addEventListener("touchstart", function(one, two, three, four, five){
     console.log(one);
     console.log(four);
     handleCharacter(this.innerHTML);
